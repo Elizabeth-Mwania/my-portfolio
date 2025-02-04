@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import LaptopImg from "../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
 
 
 
@@ -18,7 +12,7 @@ const About = () => {
             <Row>
               <Col md={8} className="home-about-description">
                 <h1 style={{ fontSize: "2.6em" }}>
-                  LET ME <span className="yellow"> Mastercard </span> Scholar!
+                  <span className="yellow"> Mastercard </span> Scholar!
                 </h1>
                 <p className="home-about-body">
                  Hi, my name is <span className="yellow">Elizabeth Mwania </span>

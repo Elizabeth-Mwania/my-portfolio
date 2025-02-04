@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
-
+import {ImBook} from "react-icons/im";
 const ProjectCard = (props) => {
   return (
     <Card
@@ -53,7 +53,7 @@ const ProjectCard = (props) => {
           }}
         >
           <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          {props.isBlog ? "Blog" : "GitHub"} <ImBook/> 
         </Button>
         {"\n"}
         {"\n"}
@@ -77,7 +77,7 @@ const ProjectCard = (props) => {
             }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            <ImBook/>{"Demo"}
           </Button>
         )}
       </Card.Body>
