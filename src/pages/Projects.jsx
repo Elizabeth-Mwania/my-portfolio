@@ -6,7 +6,7 @@ import Credit_card_approval_banner from "../assets/projects/Credit_card_approval
 import project from "../assets/projects/project.jpeg";
 import graduate from "../assets/projects/graduate.png";
 // import krypto from "../assets/projects/krypto.png";
-import kickstart from "../assets/projects/kickstart.png";
+import crypto from "../assets/projects/crypto.png";
 
 const Projects = () => {
   return (
@@ -22,10 +22,12 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={crypto}
               isBlog={false}
-              title="Cryptography Forecasting"
-              description="This project to analyse and forecast Cryptography data from Yahoo API."
+              title="Yahoo Realtime Cryptography Dashboard"
+              description="This project to analyse Cryptography data from Yahoo API. The main technologies used
+              are: Dash and Plotly to create dashboard, yfinance to fetch cryptocurrency data from Yahoo Finance,
+              Pandas & NumPy for data manipulation and calculations"
               ghLink="https://github.com/Elizabeth-Mwania/Crypto_Analysis_with_Yahoo_API"
             />
           </Col>
