@@ -4,14 +4,14 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particle'
-import pdf from "../assets/sajib.pdf"
+import pdf from "../assets/Elizabeth-Mwania-CV.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://github.com/Elizabeth-Mwania/my-portfolio/blob/main/Elizabeth-Mwania-CV.pdf`
+const resumeLink = `https://github.com/Elizabeth-Mwania/my-portfolio/blob/main/src/assets/Elizabeth-Mwania-CV.pdf`
 
 
 const Resume = () => {
