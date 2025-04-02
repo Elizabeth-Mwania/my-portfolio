@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container } from "react-bootstrap";
 import Particle from '../components/Particle';
-import ContactForm from '../components/Contact/Contact';
+// import ContactForm from '../components/Contact/Contact';
 import { Row, Col } from "react-bootstrap";
-import LaptopImg from "../assets/home-main.svg";
+// import LaptopImg from "../assets/home-main.svg";
 import { FaLinkedinIn, FaEnvelope  } from "react-icons/fa";
 import { AiOutlineTwitter, AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
 // import Social from '../components/Contact/Social';

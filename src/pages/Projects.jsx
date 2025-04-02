@@ -72,7 +72,7 @@ const Projects = () => {
               isBlog={false}
               title="AB-Testing: Free Trial Screener"
               description="This project focuses on an A/B testing experiment conducted to optimize student enrollment decisions for their courses. The course overview page offers two options Start Free Trial – Requires credit card details and enrolls the student in a 14-day free trial for the paid course. If not canceled, the student is charged automatically. Access Course Materials - Grants free access to videos and quizzes but excludes coaching support, project feedback, and certification. The project analyses user behavior, conversion rates, and engagement metrics to determine whether this change leads to better course completion rates and more satisfied learners"
-              ghLink="https://github.com/Elizabeth-Mwania/malaria_detection_with_hyperparamerter_tuning"
+              ghLink="https://github.com/Elizabeth-Mwania/AB-Testing-Free-Trial-Screener"
             />
           </Col>
 

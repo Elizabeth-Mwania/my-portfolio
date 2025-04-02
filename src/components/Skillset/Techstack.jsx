@@ -1,37 +1,19 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
-  DiReact,
   DiNodejs,
   DiGit,
 } from "react-icons/di";
 import {
-  SiMaterialui,
   SiGraphql,
-  SiSolidity,
-  SiRedux,
-  SiMongodb,
-  SiHtml5
+  SiMongodb
 } from "react-icons/si";
 import {
   SiPython,
   SiPostgresql,
   SiR, 
   SiSpring ,
-  SiDocker,
-  SiMicrosoftazure,
-  SiRedis,
-  SiReact,
-  SiJavascript,
-  SiCss3,
-  SiOracle,
-  SiKeycloak ,
-  SiWindowsterminal,
-  SiMicrosoftexcel ,
-  SiDjango,
-  SiApachekafka,
-  SiPowerbi
+  SiOracle
 } from "react-icons/si";
 const Techstack = () => {
   return (
