@@ -7,6 +7,8 @@ import project from "../assets/projects/project.jpeg";
 import graduate from "../assets/projects/graduate.png";
 // import krypto from "../assets/projects/krypto.png";
 import crypto from "../assets/projects/crypto.png";
+import abtest from "../assets/projects/week.png"
+import blood from "../assets/projects/blood_campaign.jpg"
 
 const Projects = () => {
   return (
@@ -25,10 +27,24 @@ const Projects = () => {
               imgPath={crypto}
               isBlog={false}
               title="Yahoo Realtime Cryptography Dashboard"
-              description="This project to analyse Cryptography data from Yahoo API. The main technologies used
-              are: Dash and Plotly to create dashboard, yfinance to fetch cryptocurrency data from Yahoo Finance,
+              description="This is ongoing project to analyse Cryptography data from Yahoo API. In this project, 
+              I've analyzd data from Yahoo Finance of three popular cryptocurrencies to date.The main technologies used
+              are: Panda, Dash and Plotly to create dashboard, yfinance to fetch cryptocurrency data from Yahoo Finance,
               Pandas & NumPy for data manipulation and calculations"
               ghLink="https://github.com/Elizabeth-Mwania/Crypto_Analysis_with_Yahoo_API"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Credit_card_approval_banner}
+              isBlog={false}
+              title="Credit Card Approval"
+              description="This app predicts if an applicant will be approved for a credit card 
+              or not. Each time there is a hard enquiry your credit score is affected negatively. 
+              This app predict the probability of being approved without affecting your credit score.
+               This app can be used by applicant who wants to find out if they will be approved for a
+                credit card without affecting their credit score. The data sourse id from kaggle"
+              ghLink="https://github.com/Elizabeth-Mwania/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -43,6 +59,25 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={blood}
+              isBlog={false}
+              title="Blood Campaign Dashboard"
+              description=" This project implements a comprehensive dashboard for blood donation campaign analysis and management. The dashboard visualizes and analyzes blood donation data to provide valuable insights for optimizing blood donation campaigns. It allows campaign organizers to make data-driven decisions to improve the success of future blood donation campaigns. The key functionalities include Geographic Distribution, Health Conditions & Eligibility, Clustering Donor Profiles and Sentiment Analysis "
+              ghLink="https://github.com/Elizabeth-Mwania/Blood_donation"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={abtest}
+              isBlog={false}
+              title="AB-Testing: Free Trial Screener"
+              description="This project focuses on an A/B testing experiment conducted to optimize student enrollment decisions for their courses. The course overview page offers two options Start Free Trial – Requires credit card details and enrolls the student in a 14-day free trial for the paid course. If not canceled, the student is charged automatically. Access Course Materials - Grants free access to videos and quizzes but excludes coaching support, project feedback, and certification. The project analyses user behavior, conversion rates, and engagement metrics to determine whether this change leads to better course completion rates and more satisfied learners"
+              ghLink="https://github.com/Elizabeth-Mwania/malaria_detection_with_hyperparamerter_tuning"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={project}
               isBlog={false}
               title="Malaria Detection"
@@ -50,37 +85,6 @@ const Projects = () => {
               ghLink="https://github.com/Elizabeth-Mwania/malaria_detection_with_hyperparamerter_tuning"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Credit_card_approval_banner}
-              isBlog={false}
-              title="Credit Card Approval"
-              description="This tool assesses an individual’s likelihood of qualifying for a credit card approval prior to formal application. Unlike traditional processes that trigger a hard credit inquiry—a step that temporarily lowers credit scores—this solution evaluates eligibility using predictive algorithms without impacting the user’s credit history. Designed for financial planning, it enables potential applicants to gauge their approval odds risk-free, empowering them to make informed decisions while preserving their credit health."
-              ghLink="https://github.com/Elizabeth-Mwania/"
-            />
-          </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={krypto}
-              isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://admission-prediction.readthedocs.io/en/latest/index.html"
-            />
-          </Col> */}
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kickstart}
-              isBlog={false}
-              title="Solidity Kickstart"
-              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-              ghLink="https://github.com/19sajib/Solidity-Kickstart"
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
