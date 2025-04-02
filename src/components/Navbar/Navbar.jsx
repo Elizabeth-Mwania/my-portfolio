@@ -14,7 +14,7 @@ import {
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi"
 import { CgFileDocument } from "react-icons/cg";
-import { FaUserAlt } from "react-icons/fa";
+import { FaSchool, FaUserAlt } from "react-icons/fa";
 
 
 function NavBar() {
@@ -72,6 +72,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/education"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaSchool style={{ marginBottom: "2px" }} /> Education
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/skillset"
                 onClick={() => updateExpanded(false)}
               >
@@ -108,7 +118,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact Me
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 

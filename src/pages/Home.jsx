@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from '../assets/about.png'
 import Particle from '../components/Particle';
-// import About from '../components/Home/About';
+
 import Type from '../components/Home/Type';
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> Elizabeth Mwania</strong>
               </h1>
 
@@ -41,7 +41,7 @@ const Home = () => {
           </Row>
         </Container>
       </Container>
-      {/* <About /> */}
+     
     </section>
   );
 }

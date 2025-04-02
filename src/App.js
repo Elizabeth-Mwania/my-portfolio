@@ -11,16 +11,17 @@ import About from './pages/About'
 import Skill from './pages/Skillset'
 import Project from './pages/Projects'
 import Resume from './pages/Resume'
-import Contact from './pages/Contact'
+// import Contact from './pages/Contact'
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
-import ScrollToTop from "./components/ScrollToTop"
+// import ScrollToTop from "./components/ScrollToTop"
 
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Education from "./pages/Education";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -38,14 +39,15 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
