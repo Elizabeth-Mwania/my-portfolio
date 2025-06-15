@@ -11,7 +11,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://github.com/Elizabeth-Mwania/my-portfolio/blob/main/src/assets/Elizabeth-Mwania-CV.pdf`
+// const resumeLink = `https://github.com/Elizabeth-Mwania/my-portfolio/blob/main/src/assets/Elizabeth-Mwania-CV.pdf`
 
 
 const Resume = () => {
@@ -26,7 +26,7 @@ const Resume = () => {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -36,13 +36,13 @@ const Resume = () => {
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
-        </Row>
+        </Row> */}
 
-        <Row className="resume">
+        {/* <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
-        </Row>
+        </Row> */}
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
