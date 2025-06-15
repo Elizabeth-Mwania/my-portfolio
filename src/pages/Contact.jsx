@@ -23,7 +23,7 @@ const Contact = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                   <a
-                      href="#"
+                      href="mwania.m.elizabeth@gmail.com"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -35,7 +35,7 @@ const Contact = () => {
                   <li className="social-icons">
                   
                     <a
-                      href="#"
+                      href="https://github.com/Elizabeth-Mwania/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -44,7 +44,7 @@ const Contact = () => {
                       <AiFillGithub />
                     </a>
                   </li>
-                  <li className="social-icons">
+                  {/* <li className="social-icons">
                     <a
                       href="#"
                       target="_blank"
@@ -54,10 +54,10 @@ const Contact = () => {
                     >
                       <AiOutlineTwitter />
                     </a>
-                  </li>
+                  </li> */}
                   <li className="social-icons">
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/elizabethmwania/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -66,7 +66,7 @@ const Contact = () => {
                       <FaLinkedinIn />
                     </a>
                   </li>
-                  <li className="social-icons">
+                  {/* <li className="social-icons">
                     <a
                       href="#"
                       target="_blank"
@@ -76,8 +76,8 @@ const Contact = () => {
                     >
                       <AiOutlineInstagram />
                       {/* <SiLeetcode /> */}
-                    </a>
-                  </li>
+                    {/* </a>
+                  </li> */} */
                 </ul>
               </Col>
             </Row>
